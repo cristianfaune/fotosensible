@@ -28,9 +28,22 @@ Rails.application.configure do
   end
 
   # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.perform_deliveries = true
 
-  config.action_mailer.perform_caching = false
+  config.action_mailer.raise_delivery_errors = true
+
+  config.action_mailer.perform_caching = true
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    :user_name => 'aa138c11771b0f',
+    :password => '962dbdd28be655',
+    :address => 'smtp.mailtrap.io',
+    :domain => 'smtp.mailtrap.io',
+    :port => '2525',
+    :authentication => :plain,
+    :enable_starttls_auto => true
+  }
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
