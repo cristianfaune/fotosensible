@@ -1,25 +1,6 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # fotosensible
+
+Es un sitio personal para compartir mi trabajo fotográfico tanto análogo como digital. Mi portafolio.
+
+# Modelo Base de datos
+![](/Users/cristianfaune/Desktop/fotosensible_proyecto/bd/fotosensible_v1.png)
